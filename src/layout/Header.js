@@ -8,7 +8,7 @@ const Header = () => {
           <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             {/* logo */}
             <div className="logo">
-              <a href="/">
+              <a  href="/">
                 <img src="assets/images/ober_logo.png" alt />
               </a>
             </div>
@@ -24,7 +24,7 @@ const Header = () => {
                   viewBox="0 0 22.22 22.313"
                 >
                   <path
-                    fill="#fff"
+                    fill="#64FFDA"
                     d="M1752.49,105.511a5.589,5.589,0,0,0-3.94-1.655,5.466,5.466,0,0,0-3.94,1.655,5.61,5.61,0,0,0,3.94,9.566,5.473,5.473,0,0,0,3.94-1.653,5.643,5.643,0,0,0,1.65-3.957A5.516,5.516,0,0,0,1752.49,105.511Zm-1.06,6.85a4.1,4.1,0,0,1-5.76,0,4.164,4.164,0,0,1,0-5.788A4.083,4.083,0,0,1,1751.43,112.361Zm7.47-3.662h-2.27a0.768,0.768,0,0,0,0,1.536h2.27A0.768,0.768,0,0,0,1758.9,108.7Zm-10.35,8.12a0.777,0.777,0,0,0-.76.769v2.274a0.777,0.777,0,0,0,.76.767,0.786,0.786,0,0,0,.77-0.767v-2.274A0.786,0.786,0,0,0,1748.55,116.819Zm7.85-.531-1.62-1.624a0.745,0.745,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.625a0.747,0.747,0,0,0,1.06,0A0.759,0.759,0,0,0,1756.4,116.288ZM1748.55,98.3a0.777,0.777,0,0,0-.76.768v2.273a0.778,0.778,0,0,0,.76.768,0.787,0.787,0,0,0,.77-0.768V99.073A0.786,0.786,0,0,0,1748.55,98.3Zm7.88,3.278a0.744,0.744,0,0,0-1.06,0l-1.62,1.624a0.758,0.758,0,0,0,0,1.063,0.745,0.745,0,0,0,1.06,0l1.62-1.624A0.758,0.758,0,0,0,1756.43,101.583Zm-15.96,7.116h-2.26a0.78,0.78,0,0,0-.77.768,0.76,0.76,0,0,0,.77.768h2.26A0.768,0.768,0,0,0,1740.47,108.7Zm2.88,5.965a0.745,0.745,0,0,0-1.06,0l-1.62,1.624a0.759,0.759,0,0,0,0,1.064,0.747,0.747,0,0,0,1.06,0l1.62-1.625A0.758,0.758,0,0,0,1743.35,114.664Zm0-11.457-1.62-1.624a0.744,0.744,0,0,0-1.06,0,0.758,0.758,0,0,0,0,1.063l1.62,1.624a0.745,0.745,0,0,0,1.06,0A0.758,0.758,0,0,0,1743.35,103.207Z"
                     transform="translate(-1737.44 -98.313)"
                   />
@@ -74,20 +74,21 @@ const Header = () => {
                       <a
                         className="splitting-text-anim-2"
                         data-splitting="chars"
-                        href="#resume-section"
+                        href="/works"
                       >
-                        Resume
+                        Works
                       </a>
                     </li>
                     <li className="menu-item">
                       <a
                         className="splitting-text-anim-2"
                         data-splitting="chars"
-                        href="/works"
+                        href="/resume"
                       >
-                        Works
+                        Resume
                       </a>
                     </li>
+                    
                     {/* <li className="menu-item">
                       <a
                         className="splitting-text-anim-2"
@@ -179,15 +180,15 @@ const Header = () => {
         {/* social */}
         <div className="menu-social-links">
           <a
-            href="http://dribbble.com"
+            href="https://instagram.com/adoberich"
             target="blank"
             className="scrolla-element-anim-1"
-            title="dribbble"
+            title="instagram"
           >
-            <i className="fab fa-dribbble" />
+            <i className="fab fa-instagram" />
           </a>
           <a
-            href="http://twitter.com"
+            href="https://twitter.com/samuellove226"
             target="blank"
             className="scrolla-element-anim-1"
             title="twitter"
@@ -195,12 +196,12 @@ const Header = () => {
             <i className="fab fa-twitter" />
           </a>
           <a
-            href="http://behance.com"
+            href="https://github.com/lilyoo226"
             target="blank"
             className="scrolla-element-anim-1"
-            title="behance"
+            title="github"
           >
-            <i className="fab fa-behance" />
+            <i className="fab fa-github" />
           </a>
         </div>
       </div>

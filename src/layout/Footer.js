@@ -12,14 +12,14 @@ const Footer = () => {
                 className="social-links scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <a target="_blank" rel="nofollow" href="http://twitter.com">
+                <a target="_blank" rel="nofollow" href="https://twitter.com/samuellove226">
                   <i aria-hidden="true" className="fab fa-twitter" />
                 </a>
-                <a target="_blank" rel="nofollow" href="http://dribble.com">
-                  <i aria-hidden="true" className="fab fa-dribbble" />
+                <a target="_blank" rel="nofollow" href="https://github.com/lilyoo226">
+                  <i aria-hidden="true" className="fab fa-github" />
                 </a>
-                <a target="_blank" rel="nofollow" href="http://behance.com">
-                  <i aria-hidden="true" className="fab fa-behance" />
+                <a target="_blank" rel="nofollow" href="https://instagram.com/adoberich">
+                  <i aria-hidden="true" className="fab fa-instagram" />
                 </a>
               </div>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                © 2022 Ober. All Rights Reserved
+               ©<strong>  2022 </strong> Samuel. All Rights Reserved
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 align-right">
@@ -36,7 +36,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Developed by <strong>beshleyua</strong>
+                Developed by <strong>Samuel Amoah</strong>
               </div>
             </div>
           </div>

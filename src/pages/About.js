@@ -1,6 +1,7 @@
 import React from "react";
 
 const About = () => {
+  
   return (
     <div className="wrapper single-post">
       {/* Section Started Heading */}
